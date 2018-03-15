@@ -27,13 +27,20 @@ header {
   display: flex;
 }
 
-.info {
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .info {
   position: absolute;
   left: 550px;
-  top: 180px;
+  top: 180px; */
+.info {
   background-color: #c99;
   padding: 5px;
   margin-right: 50px;
+  flex-basis: 300px;
 }
 
 h1 {
